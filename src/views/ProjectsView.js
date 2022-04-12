@@ -37,7 +37,7 @@ function ProjectView() {
           </h2>
         </div>
 
-        <div className=" rounded-xl   flex flex-wrap  justify-between">
+        <div className=" rounded-xl   flex flex-wrap  ">
           {project.map((item) => (
             <div className="md:w-1/3 px-2 py-4  ">
               <a href={item.projectUrl} target="_blank" className="min-h-full">
