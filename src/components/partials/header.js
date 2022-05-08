@@ -25,6 +25,9 @@ function Header() {
           <li>
             <NavLink to="/projects">Projelerim</NavLink>
           </li>
+          <li>
+            <NavLink to="/blog">Blog</NavLink>
+          </li>
         </ul>
 
         <div className="icon">

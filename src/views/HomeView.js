@@ -13,6 +13,7 @@ import { RiTwitterLine } from "react-icons/ri";
 import { FiGithub, FiInstagram } from "react-icons/fi";
 import HomeCard from "../components/elements/home-card";
 function HomeView() {
+
   return (
     <Layout>
       <div
@@ -52,7 +53,7 @@ function HomeView() {
               </ul>
             </div>
           </div>
-          <div className="w-3/4 ml-10 mt-16">
+          <div className="md:w-3/4 md:ml-10 md:mt-16">
             <div className="mb-30">
               <span className="text-xl mb-5">Merhaba 👋</span>
               <Heading className="text-3xl mb-3">

@@ -39,11 +39,11 @@ function ProjectView() {
 
         <div className=" rounded-xl   flex flex-wrap  ">
           {project.map((item) => (
-            <div className="md:w-1/3 px-2 py-4  ">
+            <div className="md:w-1/3 px-2 py-4  "  key={item.id}>
               <a href={item.projectUrl} target="_blank" className="min-h-full">
                 <div
                   className="   hover:scale-95 cursor-pointer min-h-full duration-100 rounded-xl bg-[#171923]  mb-5  "
-                  key={item.id}
+
                 >
                   <div className="mb-3 rounded-xl">
                     <img src={item.imageUrl} alt="" className="rounded-t-xl" />

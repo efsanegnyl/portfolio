@@ -6,12 +6,12 @@ import App from "./App";
 import { ChakraProvider } from '@chakra-ui/react'
 
 ReactDOM.render(
-  <React.StrictMode>
+
     <ChakraProvider>
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    </ChakraProvider>
-  </React.StrictMode>,
+    </ChakraProvider>,
+
   document.getElementById("root")
 );
