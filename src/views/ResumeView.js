@@ -22,12 +22,12 @@ function ResumeView() {
         </div>
         <div className="mb-20">
           <div className="w-full flex  justify-center mx-auto">
-            <span className="bg-white px-5 py-3 text-gray-700 rounded-full ">
+            <span className="bg-white  px-5 py-3 text-gray-700 rounded-full ">
               👩‍💻 Deneyimlerim
             </span>
           </div>
 
-          <div className="   flex  flex-wrap   ">
+          <div className=" md:flex  md:flex-wrap flex    ">
             {/*   <div className="timeline  border-l h-full border-amber-300 absolute left-1/2 top-0"></div>*/}
 
             {experiences.map((item, index) => (
@@ -38,7 +38,7 @@ function ResumeView() {
                   (index + 1) % 2 === 0 ? "right" : "left",
                 ])}
               >
-                <div className=" rounded-xl    gray    timeline p-10">
+                <div className=" rounded-xl    gray   p-10">
                   <h2 className=" mb-2 text-amber-300 text-sm">{item.year}</h2>
                   <div className=" flex items-center mb-2 font-semibold le">
                     <a
