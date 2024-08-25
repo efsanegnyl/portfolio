@@ -1,8 +1,8 @@
 FROM node:20
 WORKDIR /usr/src/app
-COPY package.json ./
-RUN npm install --frozen-lockfile --legacy-peer-deps
+COPY package.json yarn.lock ./
+RUN yarn install --frozen-lockfile
 COPY . .
-RUN npm run build
+RUN yarn build
 EXPOSE 3000
-CMD [ "npm", "run", "serve" ]
+CMD [ "yarn", "serve" ]
